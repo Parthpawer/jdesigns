@@ -7,12 +7,16 @@ import FirstDesign from './productPageDesigns/first'
 import SecondDesign from './productPageDesigns/second'
 import ThirdDesign from './productPageDesigns/third'
 import FourthDesign from './productPageDesigns/fourth'
+import Fifthdesign from './productPageDesigns/fifth'
+import SixthProduct from './productPageDesigns/six'
 
 const PAGES = [
   { id: "first", label: "First" },
   { id: "second", label: "Second"},
   { id: "third", label: "Third"},
   { id: "fourth", label: "Fourth"},
+  { id: "fifth", label: "Fifth"},
+  { id: "sixth", label: "Sixth"}
   // { id: "about", label: "About" },
   // { id: "contact", label: "Contact" },
 ];
@@ -21,7 +25,9 @@ const PAGE_COMPONENTS = {
   first: FirstDesign,
   second: SecondDesign,
   third: ThirdDesign,
-  fourth: FourthDesign
+  fourth: FourthDesign,
+  fifth: Fifthdesign,
+  sixth: SixthProduct
   // about: AboutPage,
   // contact: ContactPage,
 };
